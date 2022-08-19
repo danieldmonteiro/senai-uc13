@@ -1,0 +1,6 @@
+CREATE LOGIN usuario
+WITH PASSWORD = 'User1234'
+
+CREATE USER usuario FOR LOGIN usuario
+
+GRANT SELECT TO usuario
